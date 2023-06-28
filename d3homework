@@ -1,0 +1,34 @@
+/* 1.
+const x = 2387237;
+const y = 2383627;
+console.log(x>y);
+*/
+
+/* 2. 
+const x = 65; // inserire numero desiderato
+if (x<5) {
+  console.log("Tiny")
+} else if (x<10) {
+  console.log("Small")
+} else if (x<15) {
+  console.log("Medium")
+} else if (x<20) {
+  console.log("Large")
+} else if (x>=20) {
+  console.log("Huge")
+}
+*/
+
+/* 3.
+for (let i = 0; i <= 10; i++) {
+  if (i === 3) continue
+  if (i === 8) continue
+  console.log(i)
+}
+*/
+
+// 4.
+for (let i = 0; i <= 15; i++) {
+   if (i % 2 == 0) continue;
+  console.log(i)
+}
