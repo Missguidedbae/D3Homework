@@ -1,34 +1,46 @@
 /* 1.
-const x = 2387237;
-const y = 2383627;
-console.log(x>y);
+const x = 45;
+const y = 37;
+if (x>y) {
+  console.log(x + " is the largest number");
+} else {
+  console.log(y + "is the largest number");
+}
 */
 
 /* 2. 
 const x = 65; // inserire numero desiderato
 if (x<5) {
-  console.log("Tiny")
+  console.log("Tiny");
 } else if (x<10) {
-  console.log("Small")
+  console.log("Small");
 } else if (x<15) {
-  console.log("Medium")
+  console.log("Medium");
 } else if (x<20) {
-  console.log("Large")
+  console.log("Large");
 } else if (x>=20) {
-  console.log("Huge")
+  console.log("Huge");
 }
 */
 
 /* 3.
 for (let i = 0; i <= 10; i++) {
-  if (i === 3) continue
-  if (i === 8) continue
+  if (i === 3) continue;
+  if (i === 8) continue;
   console.log(i)
 }
 */
 
-// 4.
-for (let i = 0; i <= 15; i++) {
-   if (i % 2 == 0) continue;
-  console.log(i)
+/* 4.
+for (let x=0; x<=15; x++) {
+        if (x === 0) {
+                console.log(x +  " is even");
+        }
+        else if (x % 2 === 0) {
+                console.log(x + " is even");   
+        }
+        else {
+                console.log(x + " is odd");
+        }
 }
+*/
